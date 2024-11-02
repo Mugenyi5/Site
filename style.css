@@ -1,0 +1,48 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: gray;
+            color: white;
+            padding: 55px 30px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 0 auto;
+            float: right;
+        }
+
+        nav a {
+            color: blue;
+            text-decoration: none;
+            padding: 20px 30px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+        }

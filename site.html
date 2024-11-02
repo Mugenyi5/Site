@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: navy;
+            color: white;
+            padding: 55px 30px;
+            text-align: center;
+        }
+
+        .nav-container {
+            background-color: white; 
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: inline-flex; 
+            gap: 15px;
+        }
+
+        nav a {
+            color: blue;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .content {
+            background-color: lightblue;
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OFFICIAL WEBSITE</h1>
+    </header>
+
+    <div class="nav-container">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </div>
+
+    <div class="content">
+        <p>This is a simple web page template with navigation links to different sections.</p>
+        <img src="images.jpeg" alt="Description of Image 1" width="1200" height="500">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My official Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
